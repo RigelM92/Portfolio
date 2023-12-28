@@ -21,7 +21,7 @@ time, mark, audio, video, button, input {
  font: inherit;
  vertical-align: baseline;
 box-sizing: border-box;
-font-family: Arial, Helvetica, sans-serif;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 outline: none;
 }
 /* HTML5 display-role reset for older browsers */

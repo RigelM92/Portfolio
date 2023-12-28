@@ -7,6 +7,7 @@ export const StyledAboutSection = styled.section`
     gap: 3rem;
     height: 80vh;
     padding: 5rem 2rem 3rem 2rem;
+    border-bottom: solid 0.3rem var(--grey-scale-1);
     background-color: var(--grey-scale-4);
     overflow: hidden;
 

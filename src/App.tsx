@@ -2,6 +2,7 @@ import { GlobalReset } from "./styles/reset"
 import { GlobalStyle } from "./styles/globalStyle"
 import { Header } from "./components/header"
 import { AboutSection } from "./components/aboutSection"
+import { ProjectSection } from "./components/projectSection"
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <GlobalStyle/>
       <Header/>
       <AboutSection/>
+      <ProjectSection/>
       <div>
         <p>teste</p>
       </div>
