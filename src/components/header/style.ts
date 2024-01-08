@@ -33,6 +33,10 @@ export const StyledHeader = styled.header`
 
     @media(min-width: 1000px) {
         padding: 1rem 12.5rem;
+
+        .hamburguer {
+            display: none;
+        }
     }
 
 `

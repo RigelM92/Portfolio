@@ -9,7 +9,7 @@ export const GlobalStyle = createGlobalStyle`
         --color-secondary-50: #E5F8F0;
         --color-tertiary: #FF2253;
         --color-tertiary-50: #FFE9EE;
-        --color-quarternary: #4ACA94;
+        --color-quarternary: #506CCF;
         --color-quarternary-50: #E4F7EF;
         --grey-scale-1: #F8F9FA;
         --grey-scale-2: #E9ECEF;

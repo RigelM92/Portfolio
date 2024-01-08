@@ -3,6 +3,8 @@ import { GlobalStyle } from "./styles/globalStyle"
 import { Header } from "./components/header"
 import { AboutSection } from "./components/aboutSection"
 import { ProjectSection } from "./components/projectSection"
+import { ContactSection } from "./components/contactSection"
+import { Footer } from "./components/footer"
 
 function App() {
 
@@ -13,13 +15,8 @@ function App() {
       <Header/>
       <AboutSection/>
       <ProjectSection/>
-      <div>
-        <p>teste</p>
-      </div>
-      <h1>Vite + React</h1>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <ContactSection/>
+      <Footer/>
     </>
   )
 }

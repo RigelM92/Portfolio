@@ -30,7 +30,7 @@ export const StyledProjectSection = styled.section`
     }
 
     @media(min-width: 1000px) {
-        padding: 5rem 12.5rem;
+        padding: 6rem 12.5rem;
     }
 
 `
