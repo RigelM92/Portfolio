@@ -117,7 +117,7 @@ export const StyledAboutSection = styled.section`
     }
     
     @media(min-width: 1000px) {
-        height: 65vh;
+        height: 71vh;
         padding: 0rem 0rem 0rem 12.5rem;
 
         .mainContainer {

@@ -1,4 +1,5 @@
 import { StyledAboutSection } from "./style";
+import { Link } from "react-router-dom"
 import github from "../../assets/github_icon.svg"
 import html from "../../assets/html_icon.svg"
 import css from "../../assets/css_icon.png"
@@ -26,12 +27,16 @@ export const AboutSection = () => {
                 </div>
                 <div className="textContainer">
                     <p>
+                        Possuo experiência em construção de páginas e aplicativos com estilizações responsivas e dinâmicas,
+                         utilizando HTML, CSS, Javascript, React e Styled Components. Sigo me aperfeiçoando para aplicar as últimas 
+                         tendências e seguir as melhores práticas do setor, almejando entregar produtos
+                         de alta qualidade. 
                         Descubra aqui todos meus projetos, as tecnologias utilizadas nos mesmos e como entrar em contato
                     </p>
                 </div>
-                <div className="buttonsContainer">
+                <div className="buttonsContainer"> 
                     <button className="projects">PROJETOS</button>
-                    <button className="github"><img src={github} alt="github"/></button>
+                    <a href="https://github.com/RigelM92" target="_blank" className="github" ><img src={github} alt="github"/></a>
                 </div>
                 <div className="iconsWrapper">
                     <div className="iconsContainer">

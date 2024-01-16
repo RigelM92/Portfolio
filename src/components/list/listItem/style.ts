@@ -33,19 +33,30 @@ export const StyledListItem = styled.li`
     }
 
     p {
+        line-height: 1.2rem;
         color: var(--grey-scale-3);
     }
 
     .iconsContainer {
         display: flex;
-        justify-content: space-between;
+        align-items: center;
+
+        a {
+            text-decoration: none;
+            line-height: 1.2rem;
+            color: var(--grey-scale-3);
+            margin-right: 3rem;
+        }
+
+        img { 
+            margin-right: 0.5rem;
+        }
     }
 
     @media(min-width: 1000px) {
         width: 40%;
 
         .iconsContainer {
-            gap: 5rem;
             justify-content: initial;
         }
     }

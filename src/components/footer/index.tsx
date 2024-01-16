@@ -18,7 +18,7 @@ export const Footer = () => {
             <div className="iconsContainer">
                 <img src={facebook}/>
                 <img src={instagram}/>
-                <img src={linkedin}/>
+                <a href="https://www.linkedin.com/in/rigel-marroquin/" target="_blank"><img src={linkedin}/></a>
             </div>
         </StyledFooter>
     )

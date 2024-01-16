@@ -1,70 +1,22 @@
 import { StyledProjectList } from "./style";
-import { StyledListItem } from "./listItem/style";
+import { ProjectListItem } from "./listItem";
+import { ProjectsData } from "../../data";
 
 export const ProjectList = () => {
 
     return (
         <StyledProjectList>
-            <StyledListItem>
-                <h3>Quickstart</h3>
-                <div className="languageContainer">
-                    <p>Linguagens:</p>
-                    <span>Javascript</span>
-                </div>
-                <p>
-                    Descrição do projeto contendo as informações sobre finalidade
-                    da aplicação e como está organizado o repositório...
-                </p>
-                <div className="iconsContainer">
-                    <p>Githubcode</p>
-                    <p>Aplicação</p>
-                </div>
-            </StyledListItem>
-            <StyledListItem>
-                <h3>Quickstart</h3>
-                <div>
-                    <span>Linguagens:</span>
-                    <span>Javascript</span>
-                </div>
-                <p>
-                    Descrição do projeto contendo as informações sobre finalidade
-                    da aplicação e como está organizado o repositório...
-                </p>
-                <div className="iconsContainer">
-                    <p>Githubcode</p>
-                    <p>Aplicação</p>
-                </div>
-            </StyledListItem>
-            <StyledListItem>
-                <h3>Quickstart</h3>
-                <div className="languageContainer">
-                    <span>Linguagens:</span>
-                    <span>Javascript</span>
-                </div>
-                <p>
-                    Descrição do projeto contendo as informações sobre finalidade
-                    da aplicação e como está organizado o repositório...
-                </p>
-                <div className="iconsContainer">
-                    <p>Githubcode</p>
-                    <p>Aplicação</p>
-                </div>
-            </StyledListItem>
-            <StyledListItem>
-                <h3>Quickstart</h3>
-                <div>
-                    <span>Linguagens:</span>
-                    <span>Javascript</span>
-                </div>
-                <p>
-                    Descrição do projeto contendo as informações sobre finalidade
-                    da aplicação e como está organizado o repositório...
-                </p>
-                <div className="iconsContainer">
-                    <p>Githubcode</p>
-                    <p>Aplicação</p>
-                </div>
-            </StyledListItem>
+            {ProjectsData.map(project => (
+                <ProjectListItem
+                    key={project.id}
+                    id={project.id}
+                    titulo={project.titulo}
+                    linguagens={project.linguagens}
+                    descricao={project.descricao}
+                    github={project.github}
+                    link={project.link}
+                />
+            ))}
         </StyledProjectList>
     )
 

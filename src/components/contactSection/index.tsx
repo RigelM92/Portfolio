@@ -33,7 +33,7 @@ export const ContactSection = () => {
                     <img src={linkedin} className="image" alt="icone linkedin"/>
                     <h4 className="title">Meu linkedin</h4>
                     <p className="description">Estou disponível, vamos conversar sobre novos projetos?</p>
-                    <span className="link">Acesse meu perfil</span>
+                    <a href="https://www.linkedin.com/in/rigel-marroquin/" target="_blank" className="link">Acesse meu perfil</a>
                 </div>
             </div>
         </StyledContactSection>

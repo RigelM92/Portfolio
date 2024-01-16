@@ -48,6 +48,10 @@ export const StyledContactSection = styled.section`
             "image description"
             "image link"; 
 
+        a {
+            text-decoration: none;
+        }
+
         .image { 
             grid-area: image;
             padding: 1.3rem 1.5rem;
@@ -97,18 +101,18 @@ export const StyledContactSection = styled.section`
         flex-direction: row;
         align-items: center;
         gap: 5rem;
-        height: 75vh;
+        min-height: 75vh;
         padding: 0rem 12.5rem;
 
         .titleContainer {
             width: 40%;
-            padding: 0rem 7rem;
+            padding: 0rem 0rem;
         }
 
         .contactCard {
             width: 85%;
             grid-template-columns: 0.4fr 1.2fr;
-            padding: 0rem 0rem 0rem 5rem;
+            padding: 0rem 0rem 0rem 0rem;
         }
     }
 `
